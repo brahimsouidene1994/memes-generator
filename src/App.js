@@ -1,23 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import MemesContainer from './memes/MemesContainer'
+import Header from './views/header'
+import Footer from './views/footer'
+
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  return (  
+    <div>
+      <Header/>
+      <MemesContainer />
+      <Footer />
     </div>
   );
 }

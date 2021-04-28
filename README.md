@@ -1,3 +1,10 @@
+#about this App's code:
+It's a simple App for beginners coded with Reactjs:
+  -fetching data from API (using https) in lifecycle method **componentDidMount**,
+  -conditional rendring
+  -sending data from component to another using props
+  -save data in state and change it with setState
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
